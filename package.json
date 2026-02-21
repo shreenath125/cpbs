@@ -1,0 +1,46 @@
+{
+  "name": "Shri-Chaitanya-PremBhakti-Sangh",
+  "private": true,
+  "version": "3.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@capacitor-community/keep-awake": "^6.0.0",
+    "@capacitor/android": "^7.0.0",
+    "@capacitor/app": "^7.0.0",
+    "@capacitor/core": "^7.0.0",
+    "@capacitor/filesystem": "^7.0.0",
+    "@capacitor/haptics": "^7.0.0",
+    "@capacitor/preferences": "^7.0.0",
+    "@capacitor/share": "^7.0.0",
+    "@capacitor/status-bar": "^7.0.0",
+    "@capacitor/text-zoom": "^7.0.0",
+    "@capgo/capacitor-media-session": "^7.3.0",
+    "cordova-plugin-background-mode": "^0.7.3",
+    "date-fns": "^4.1.0",
+    "lucide-react": "^0.475.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@capacitor/assets": "^3.0.0",
+    "@capacitor/cli": "^7.0.0",
+    "@types/react": "^19.0.8",
+    "@types/react-dom": "^19.0.3",
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.13",
+    "typescript": "^5.7.3",
+    "vite": "^6.4.1",
+    "vite-plugin-static-copy": "^2.2.0"
+  },
+  "overrides": {
+    "minimatch": "^10.2.1",
+    "tar": "^7.5.7"
+  }
+}

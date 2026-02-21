@@ -1,0 +1,15 @@
+
+{
+  "appId": "com.cpbs.bhajans",
+  "appName": "Shri-Chaitanya-PremBhakti-Sangh",
+  "webDir": "dist",
+  "bundledWebRuntime": false,
+  "server": {
+    "androidScheme": "https"
+  },
+  "plugins": {
+    "CapacitorHttp": {
+      "enabled": true
+    }
+  }
+}
